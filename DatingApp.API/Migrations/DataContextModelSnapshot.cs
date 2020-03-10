@@ -65,10 +65,10 @@ namespace DatingApp.API.Migrations
                     b.Property<string>("Gender")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Instruction")
+                    b.Property<string>("Interests")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Interests")
+                    b.Property<string>("Introduction")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("KnownAs")
