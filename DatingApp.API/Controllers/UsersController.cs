@@ -10,6 +10,12 @@ using AutoMapper;
 using DatingApp.API.Dtos;
 using System.Security.Claims;
 
+
+/*
+        Uzimam sve izvucene podatke iz DatingRepositorya 
+
+*/
+
 namespace DatingApp.API.Controllers
 {
     [Authorize]
