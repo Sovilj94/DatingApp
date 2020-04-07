@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using DatingApp.API.Dtos;
 using System.Security.Claims;
+using DatingApp.API.Helpers;
 
 
 /*
@@ -18,6 +19,7 @@ using System.Security.Claims;
 
 namespace DatingApp.API.Controllers
 {
+    [ServiceFilter(typeof(LogUserActivity))]
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
